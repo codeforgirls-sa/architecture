@@ -40,4 +40,8 @@ public class BankAccount {
     public String getCardHolderAddress() {
         return cardHolderAddress;
     }
+
+    public void setBalance(String balance) {
+        this.balance = balance;
+    }
 }

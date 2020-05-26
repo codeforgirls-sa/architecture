@@ -19,6 +19,7 @@ public class BusinessLogic {
             WithdrawTransaction withdrawTransaction = new WithdrawTransaction(bankAccount, withdrawDto.getWithdrawAmount(),
                     new Date());
 
+            bankAccount.setBalance(String.valueOf(Integer.parseInt(bankAccount.getBalance()) - withdrawTransaction.getAmount()));
 
             return withdrawTransaction;
 
