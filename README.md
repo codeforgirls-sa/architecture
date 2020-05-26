@@ -1,5 +1,5 @@
 # architecture
-This repository is a reference for Future Developer program students, consist of demos and challenges source code discussed during the Software Engineering workshop.
+This repository is a reference for Future Programmer program students, consist of demos and challenges source code discussed during the Software Engineering workshop.
 
 - - - -  
 
